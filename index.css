@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 10px;
+    width: 600px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 0 0 3px -1px gray;
+}
+
+.container img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.head{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.sub-head{
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.card{
+    padding: 10px 30px;
+    box-shadow: 0 0 3px -1px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.gmail{
+    /* letter-spacing: 1px; */
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.card input{
+     width: 300px;
+     padding: 8px;
+     font-weight: 400;
+     font-size: 18px;
+     margin-bottom: 10px;
+}
+
+.card input:focus{
+    outline: none;
+}
+
+.card button{
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.help{
+    width: 300px;
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.diff{
+    color: blue;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.one{
+    font-weight: 500;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logos .img{
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+.img img{
+    object-fit: cover;
+    width: 25px;
+    height: 25px;
+
+}
+
+.logos .img-last{
+    margin-right: 0px;
+}
